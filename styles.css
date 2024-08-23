@@ -1,0 +1,148 @@
+body {
+  text-align: center;
+  
+}
+
+h1 {
+  font-size: 5rem;
+  color: #DBEDF3;
+  font-family: "Arvo", cursive;
+
+
+}
+
+footer {
+  color: #DBEDF3;
+  font-family: sans-serif;
+}
+
+.w {
+background-image:url(images/sonu.avif)  ;
+background-size: 300px 300px;
+
+}
+
+.a {
+  background-image: url(images/ar.png);
+  background-size: 300px 300px;
+}
+
+.s {
+  background-image: url(images/udit.jpg);
+  background-size: 300px 300px;
+
+}
+
+.d {
+  background-image: url(images/kumar.jpg);
+  background-size: 300px 300px;
+
+}
+
+.j {
+  background-image: url(images/kk.png);
+  background-size: 300px 300px;
+
+}
+
+.k {
+  background-image: url(images/vind.jpg);
+  background-size: 300px 300px;
+
+}
+
+.l {
+  background-image: url(images/ride.jpeg);
+
+}
+
+.m{
+  background-image: url(images/hony.avif);
+  background-size: 300px 300px;
+}
+
+.n{
+  background-image: url(images/bappi.jpg);
+  background-size: 300px 300px;
+}
+
+
+.set {
+  background-color: yellow;
+  align-items: center;
+  margin-left: 7%;
+  background: linear-gradient(300deg, #ff2f63,yellow, yellow);
+  background-size: 180% 180%;
+  animation: gradient-animation 3s ease infinite;
+}
+
+
+.game-over {
+  background-color: red;
+  opacity: 0.8;
+}
+
+.pressed {
+  box-shadow: 0 3px 4px 0 #DBEDF3;
+  opacity: 0.5;
+}
+
+.red {
+  color: red;
+}
+
+.drum {
+  outline: none;
+  border: 5px solid #404B69;
+  font-size: 1px;
+  font-family: 'Arvo', cursive;
+  line-height: 2;
+  font-weight: 900;
+  display: inline-block;
+  width: 300px;
+  height: 300px;
+  text-align: center;
+  margin: 10px;
+  background-color: white;
+}
+.back {
+  background: linear-gradient(300deg, #ff2f63, #07ffbd, #d2f50d);
+  background-size: 180% 180%;
+  animation: gradient-animation 3s ease infinite;
+}
+
+@keyframes gradient-animation {
+  0% {
+    background-position: 0% 50%;
+  }
+  50% {
+    background-position: 100% 50%;
+  }
+  100% {
+    background-position: 0% 50%;
+  }
+}
+
+.icon-square {
+  width: 3rem;
+  height: 3rem;
+  border-radius: 0.75rem;
+}
+
+.profile-img {
+  border-radius: 50%;
+}
+#footer{
+  background: linear-gradient(300deg, #eb0665, #07e5b5, #07cdf0);
+  background-size: 180% 180%;
+  animation: gradient-animation 7s ease infinite;
+  font-size: x-large;
+
+}
+#title{
+  background-color: black;
+  text-align: center;
+}
+.contain{
+  background-color: yellow;
+}
